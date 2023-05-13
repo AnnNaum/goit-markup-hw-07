@@ -219,6 +219,8 @@ ul {
     padding: 24px 0;
 }
 
+.header-icon {}
+
 
 
 
@@ -318,6 +320,15 @@ ul {
 }
 
 
+.section-picture-container {
+    display: none;
+}
+
+@media only screen and (min-width: 1158px) {
+    .section-picture-container {
+        display: block;
+    }
+}
 
 .picture-title {
     font-size: 36px;
